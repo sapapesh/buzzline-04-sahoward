@@ -1,4 +1,4 @@
-# buzzline-04-case
+# buzzline-04-sahoward
 
 We can analyze and visualize different types of streaming data as the information arrives.
 
@@ -126,14 +126,14 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.basic_json_producer_case
+py -m producers.project_producer_case
 ```
 
 Mac/Linux:
 
 ```zsh
 source .venv/bin/activate
-python3 -m producers.basic_json_producer_case
+python3 -m producers.project_producer_case
 ```
 
 ### Consumer Terminal
@@ -147,14 +147,14 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m consumers.basic_json_consumer_case
+py -m consumers.project_consumer_sahoward
 ```
 
 Mac/Linux:
 
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.basic_json_consumer_case
+python3 -m consumers.project_consumer_sahoward
 ```
 
 ### Review the Application Code
